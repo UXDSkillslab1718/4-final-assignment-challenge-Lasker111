@@ -1,0 +1,135 @@
+/* Global styles
+-----------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin:0;
+}
+.work h2, .education h2, .footer h2 {
+	font-size: 40px;
+	font-family: 'Indie Flower', cursive;
+}
+a{
+	color: #00EEEE;
+}
+a:hover{
+	text-decoration: none;
+}
+h2{
+	margin-top:0;
+}
+h3 {
+	margin:0;
+}
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	
+}
+.col-narrow{
+	width: 30%;
+	float: left;
+}
+.col-wide{
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+}
+.upercase{
+	text-transform: uppercase;
+}
+.button{
+	text-decoration: none;
+	background: blue;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+
+/* Header
+-----------------------*/
+.profile-img{
+	border-radius: 80px;
+
+}
+header{
+	background: linear-gradient(rgba(205, 102, 0, 0.8),rgba(205, 102, 0, 0.5)), url(../image/university.jpg) no-repeat fixed;
+	background-size: cover;
+	padding-top: 50px;
+	position: relative;
+}
+header h1{
+	margin: 0;
+	font-size: 80px;
+	color: #D02090;
+	font-family: 'Monoton', cursive;
+}
+.download{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* Footer
+__________________________________*/
+
+.footer{
+	background: linear-gradient(rgba(105, 105, 105, 0.8),rgba(105, 105, 105, 0.5));
+	text-align: center;
+}
+.contact-info a {
+	background: purple;
+	margin: 10px;
+	padding: 13px;
+	display: inline-block;
+}
+/* Work Experience
+-----------------------*/
+h3 ~ p {
+	margin: 0;
+}
+.work{
+	background: linear-gradient(rgba(193, 205, 205, 0.8),rgba(193, 205, 205, 0.5));
+}
+/* Education 
+-----------------------*/
+.education{
+	background: linear-gradient(rgba(255, 140, 0, 0.8),rgba(255, 140, 0, 0.5));
+}
+/* Navigation
+-----------------------*/
+nav{
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+}
+nav a{
+	display: inline-block;
+	padding: 10px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+}
+/* Media Queries
+-----------------------*/
+@media (max-width:899px){
+	header{
+		text-align: center;
+	}
+	.profile-img{
+		width:200px;
+	}
+}
