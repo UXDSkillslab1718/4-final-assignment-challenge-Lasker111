@@ -17,7 +17,7 @@ body {
 	font-family: 'Indie Flower', cursive;
 }
 a{
-	color: #00EEEE;
+	color: #091669;
 }
 a:hover{
 	text-decoration: none;
@@ -62,7 +62,7 @@ h3 {
 
 }
 header{
-	background: linear-gradient(rgba(205, 102, 0, 0.8),rgba(205, 102, 0, 0.5)), url(../image/university.jpg) no-repeat fixed;
+	background: linear-gradient(rgba(170, 162, 161, 0.8),rgba(240, 240, 240, 0.5)), url(../image/university.jpg) no-repeat fixed;
 	background-size: cover;
 	padding-top: 50px;
 	position: relative;
@@ -82,7 +82,8 @@ header h1{
 __________________________________*/
 
 .footer{
-	background: linear-gradient(rgba(105, 105, 105, 0.8),rgba(105, 105, 105, 0.5));
+	background: linear-gradient(rgba(170, 162, 161, 0.8),rgba(240, 240, 240, 0.5)), url(../image/university.jpg) no-repeat fixed;
+	background-size: cover;
 	text-align: center;
 }
 .contact-info a {
@@ -97,12 +98,14 @@ h3 ~ p {
 	margin: 0;
 }
 .work{
-	background: linear-gradient(rgba(193, 205, 205, 0.8),rgba(193, 205, 205, 0.5));
+	background: linear-gradient(rgba(170, 162, 161, 0.8),rgba(240, 240, 240, 0.5)), url(../image/university.jpg) no-repeat fixed;
+	background-size: cover;
 }
 /* Education 
 -----------------------*/
 .education{
-	background: linear-gradient(rgba(255, 140, 0, 0.8),rgba(255, 140, 0, 0.5));
+	background: linear-gradient(rgba(170, 162, 161, 0.8),rgba(240, 240, 240, 0.5)), url(../image/university.jpg) no-repeat fixed;
+	background-size: cover;
 }
 /* Navigation
 -----------------------*/
