@@ -1,6 +1,10 @@
 body { 
 	margin: 0; 
 }
+a:hover{
+	background: white;
+	color: red;
+}
 header {
  display: block; 
  height: 405px; 
@@ -8,4 +12,22 @@ header {
 }
 .logo-pos {
 	text-align: center;
+	position: relative;
+	top: 55px;
+}
+nav{
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+}
+nav a{
+	display: inline-block;
+	padding: 15px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
 }
