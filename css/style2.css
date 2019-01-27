@@ -1,0 +1,11 @@
+body { 
+	margin: 0; 
+}
+header {
+ display: block; 
+ height: 405px; 
+ background: url(../image/header.jpg) no-repeat center bottom;
+}
+.logo-pos {
+	text-align: center;
+}
