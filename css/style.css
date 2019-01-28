@@ -184,3 +184,9 @@ nav a{
 		width:200px;
 	}
 }
+.image-project{
+	position: relative;
+	right: 0px;
+	margin-left: -30px;
+
+}

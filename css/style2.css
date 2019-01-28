@@ -7,16 +7,11 @@ a:hover{
 	color: red;
 }
 
-header {
- display: block; 
- height: 405px; 
- background: url(../image/header.jpg) no-repeat center bottom;
-}
 
 .logo-pos {
 	text-align: center;
 	position: relative;
-	top: 85px;
+	top: 25px;
 }
 
 nav{
