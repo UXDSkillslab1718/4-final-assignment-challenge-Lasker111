@@ -54,6 +54,34 @@ h3 {
 	padding: 10px;
 	display: inline-block;
 }
+.button1{
+	text-decoration: none;
+	background: blue;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+.button2{
+	text-decoration: none;
+	background: blue;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+.button3{
+	text-decoration: none;
+	background: blue;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+.button4{
+	text-decoration: none;
+	background: blue;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
 
 /* Header
 -----------------------*/
@@ -74,6 +102,26 @@ header h1{
 	font-family: 'Monoton', cursive;
 }
 .download{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.download1{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.download2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.download3{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.download4{
 	position: absolute;
 	bottom: 0;
 	right: 0;
