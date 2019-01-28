@@ -1,20 +1,24 @@
 body { 
 	margin: 0; 
 }
+
 a:hover{
 	background: white;
 	color: red;
 }
+
 header {
  display: block; 
  height: 405px; 
  background: url(../image/header.jpg) no-repeat center bottom;
 }
+
 .logo-pos {
 	text-align: center;
 	position: relative;
-	top: 55px;
+	top: 85px;
 }
+
 nav{
 	text-align: center;
 	position: fixed;
@@ -22,6 +26,7 @@ nav{
 	left: 0;
 	right: 0;
 }
+
 nav a{
 	display: inline-block;
 	padding: 15px 15px;
@@ -29,5 +34,18 @@ nav a{
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.layer{
+	background: linear-gradient(rgba(197, 233, 233, 0.8),rgba(230, 230, 230, 0.5)) no-repeat fixed;
+	margin-left: 290px;
+	margin-right: 290px;
+	height: 1000px;
+	padding-left: 100px;
+}
+
+.DC h2, .SL h2, .IUX h2, .TIS h2 .RD h2 .all h2 {
+	font-size: 60px;
 	font-family: 'Indie Flower', cursive;
 }
